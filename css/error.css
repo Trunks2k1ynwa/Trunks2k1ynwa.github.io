@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.error{
+	display: flex;
+	margin: auto;
+	width: 1168px;
+}
+.error .left{
+
+}
+.error .left>img{
+	height:700px;
+}
+.error .right{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	margin: 0;
+}
+.error .right .top{
+	display: flex;
+	padding-top: 100px;
+	flex:1;
+	overflow: hidden;
+}
+.error .right .top>img{
+	height: 300px;
+	margin: auto;
+	transform: scale(1.5);
+}
+.error .right .bottom{
+	flex: 1;
+}
+.error .right .bottom>p{
+	width:650px;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+    padding-bottom: 50px;
+	font-family:segoe ui;
+	font-size:20px;
+}
+.error .right .bottom>a{
+	text-decoration: none;
+	padding-bottom:100px;
+}
+.error .right .bottom>a .input{
+	height:50px;
+	width:230px;
+	background:white;
+	color:black;
+	font-family:segoe ui;
+	font-size:15px;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	border-radius: 30px;
+	line-height: 50px;
+	border: 1.5px solid #1a0aff;
+	transition:0.4s;
+}
+.error .right .bottom>a .input:hover{
+	background:#1a0aff;
+	color: white;
+	border: 1px solid black;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+.error .right .bottom>a .span{}s
